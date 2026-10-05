@@ -1,7 +1,10 @@
-# Fine-Tune How Experts Coordinate: Consensus-Anchored Adaptation of Pre-trained Mixture-of-Experts
-
 Anonymous code release for the ICLR 2026 submission of the same title. The method is
-referred to as **CAFT** (Consensus-Anchored Fine-Tuning) below.
+referred to as **COFFIE** below.
+
+> **Note on naming.** This method was previously called **CAFT** (Consensus-Anchored
+> Fine-Tuning) and has been renamed **COFFIE**. All references in this README use the
+> new name. Any remaining mention of "CAFT" in older logs, checkpoint names or code
+> comments refers to the same method.
 
 This repository fine-tunes a **frozen** pretrained MoE model (experts, backbone
 and router all frozen) by training one small shared operator per MoE layer that
